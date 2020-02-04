@@ -91,7 +91,7 @@ pyparsing==2.2.1
 PySocks==1.6.8
 python-crfsuite==0.9.6
 python-dateutil==2.7.3
-python-engineio==2.2.0
+python-engineio==3.8.2.post1
 python-socketio==2.0.0
 python-telegram-bot==10.1.0
 pytz==2018.5
