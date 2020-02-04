@@ -1,0 +1,6 @@
+- text: "Hello student. To proceed, please select your next action"
+  buttons:
+  - title: "register/sign up"
+    payload: "register"
+  - title: "login"
+    payload: "login"

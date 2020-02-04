@@ -1,0 +1,216 @@
+action_factory: null
+action_names:
+- utter_goodbye
+- utter_ask_candidateName
+- utter_ask_center_number
+- utter_ask_year
+- utter_ask_candidateLevel
+- utter_proceed_login
+- utter_thank
+- utter_ask_password
+- utter_ask_username
+- utter_ask_candidateBirth
+- utter_ask_seat
+- utter_ask_candidateNumber
+- utter_ask_service
+- utter_ask_file_results
+- utter_ask_gender
+- action_register_candidate
+- action_login_candidate
+- action_handle_forget_details
+- action_prompt_forget_details
+- action_get_candidate_results
+- action_send_results_file
+actions:
+- utter_goodbye
+- utter_ask_candidateName
+- utter_ask_center_number
+- utter_ask_year
+- utter_ask_candidateLevel
+- utter_proceed_login
+- utter_thank
+- utter_ask_password
+- utter_ask_username
+- utter_ask_candidateBirth
+- utter_ask_seat
+- utter_ask_candidateNumber
+- utter_ask_service
+- utter_ask_file_results
+- utter_ask_gender
+- domain.actions.actions.ActionRegisterCandidate
+- domain.actions.actions.ActionLoginCandidate
+- domain.actions.actions.ActionHandleForgetDetails
+- domain.actions.actions.ActionPromptForgetCandidateDetails
+- domain.actions.actions.ActionGetResults
+- domain.actions.actions.ActionSendFileResults
+config:
+  store_entities_as_slots: true
+entities:
+- candidateNumber
+- candidateLevel
+- candidateBirth
+- candidateName
+- gender
+- seat
+- center_number
+- service
+- year
+- username
+- password
+intents:
+- affirm
+- candidate_dob
+- candidate_gender
+- candidate_number
+- deny
+- goodbye
+- greet
+- inform_center_number
+- inform
+- inform_level
+- inform_name
+- inform_seat
+- inform_service
+- thank
+- inform_year
+- inform_password
+- inform_username
+slots:
+  candidateBirth:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  candidateLevel:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - advanced level
+    - ordinary level
+  candidateName:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  candidateNumber:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  candidate_results:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  center_number:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  gender:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - male
+    - female
+  loggedIn:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  password:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  requested_slot:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  seat:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - november
+    - june
+  service:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  username:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  year:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_candidateBirth:
+  - text: Can you give me your date of birth as dd/mm/yyyy
+  - text: Please provide with your DOB with the format dd/mm/yyyy
+  utter_ask_candidateLevel:
+  - buttons:
+    - payload: ordinary level
+      title: Ordinary Level
+    - payload: advanced level
+      title: Advanced Level
+    text: Which ZIMSEC level?
+  utter_ask_candidateName:
+  - text: Can i have your full name that you used on registration
+  - text: Please enter your full name below
+  - text: I need to have your name, can you provide your full name?
+  - text: Your name is needed to recognize you, please enter your full name
+  utter_ask_candidateNumber:
+  - text: Can i have your candidate number below in the format e.g `#3002`
+  - text: 'Please provide with your candidate number like #3080'
+  - text: Can you give me your candidate number in this format `#3004`
+  - text: I need to note down your candidate number. Kindly provide me with it in
+      the format `#3068`
+  utter_ask_center_number:
+  - text: Please input your `center number`
+  - text: Can you provide me with your center number
+  - text: Provide your center number below
+  utter_ask_file_results:
+  - buttons:
+    - payload: 'yes'
+      title: 'Yes'
+    - payload: 'no'
+      title: 'No'
+    text: Should i give you a downloadable file of your results also?
+  utter_ask_gender:
+  - buttons:
+    - payload: male
+      title: Male
+    - payload: female
+      title: Female
+    text: Please specify your gender below
+  utter_ask_password:
+  - text: Enter your password below
+  - text: Provide the password that you got upon registration
+  - text: Can you provide your password before you proceed?
+  utter_ask_seat:
+  - buttons:
+    - payload: June
+      title: June
+    - payload: November
+      title: November
+    text: Which seating did you wrote your exams?
+  utter_ask_service:
+  - buttons:
+    - payload: register
+      title: register/sign up
+    - payload: login
+      title: login
+    text: Hello student. To proceed, please select your next action
+  utter_ask_username:
+  - text: Enter your username below
+  - text: To continue, provide your username
+  - text: Enter username that was provided on registration
+  utter_ask_year:
+  - buttons:
+    - payload: '2019'
+      title: '2019'
+    - payload: '2018'
+      title: '2018'
+    - payload: other
+      title: Other
+    text: Kindly select the year you sat for your exams below
+  utter_goodbye:
+  - text: It was nice to be at your service
+  - text: If there is anything you need.. I'm here to help
+  - text: Have a good day
+  utter_proceed_login:
+  - buttons:
+    - payload: 'yes'
+      title: 'Yes'
+    - payload: 'no'
+      title: 'No'
+    text: Registration successful. Do you want to proceed to login?
+  utter_thank:
+  - text: You are most welcome
+  - text: We are glad you use our services
+  - text: Okay
+topics: []

@@ -1,0 +1,8 @@
+- goodbye
+- chat later
+- it was nice talking to you
+- bye bye
+- bye
+- good bye
+- see you later
+- bye now

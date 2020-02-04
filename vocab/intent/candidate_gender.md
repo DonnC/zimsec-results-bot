@@ -1,0 +1,7 @@
+- [male](gender)
+- [female](gender)
+- its male
+- im female
+- use female
+- [Female](gender)
+- [Male](gender)

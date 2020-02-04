@@ -1,0 +1,6 @@
+- text: "Please specify your gender below"
+  buttons:
+  - title: "Male"
+    payload: "male"
+  - title: "Female"
+    payload: "female"

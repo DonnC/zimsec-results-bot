@@ -1,0 +1,9 @@
+- thank you
+- thanks
+- thanx
+- thanks very much
+- thank you for your service
+- thanks for helping
+- dankie
+- thank you very much
+- thanks a lot

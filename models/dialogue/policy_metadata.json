@@ -1,0 +1,71 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "service",
+        "candidateBirth",
+        "username",
+        "candidateNumber",
+        "seat",
+        "password",
+        "gender",
+        "year",
+        "center_number",
+        "candidateName",
+        "candidateLevel"
+      ]
+    },
+    "action_login_candidate": {
+      "slots": [
+        "requested_slot",
+        "username",
+        "password",
+        "candidate_results",
+        "loggedIn"
+      ]
+    },
+    "action_get_candidate_results": {
+      "slots": [
+        "candidate_results"
+      ]
+    },
+    "action_send_results_file": {
+      "slots": []
+    },
+    "utter_thank": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_register_candidate": {
+      "slots": [
+        "requested_slot",
+        "candidateBirth",
+        "candidateNumber",
+        "seat",
+        "year",
+        "gender",
+        "center_number",
+        "candidateName",
+        "candidateLevel"
+      ]
+    },
+    "action_handle_forget_details": {
+      "slots": []
+    },
+    "utter_ask_service": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.9.8",
+  "max_histories": [
+    3,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

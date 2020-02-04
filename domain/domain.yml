@@ -1,0 +1,205 @@
+
+
+intents:
+  - affirm
+  - candidate_dob
+  - candidate_gender
+  - candidate_number
+  - deny
+  - goodbye
+  - greet
+  - inform_center_number
+  - inform
+  - inform_level
+  - inform_name
+  - inform_seat
+  - inform_service
+  - thank
+  - inform_year
+  - inform_password
+  - inform_username
+
+entities:
+  - candidateNumber
+  - candidateLevel
+  - candidateBirth
+  - candidateName
+  - gender
+  - seat
+  - center_number
+  - service
+  - year
+  
+  # for username && password
+  - username
+  - password
+
+slots:
+  candidateNumber:
+    type: text
+  
+  candidateBirth:
+    type: text
+  
+  candidateName:
+    type: text
+  
+  service:
+    type: text
+  
+  center_number:
+    type: text
+  
+  candidateLevel:
+    type: categorical
+    values:
+    - advanced level
+    - ordinary level
+  
+  gender:
+    type: categorical
+    values:
+    - male
+    - female
+  
+  username:
+    type: text
+  
+  password:
+    type: text
+  
+  year:
+    type: text
+  
+  loggedIn:
+    type: text
+  
+  seat:
+    type: categorical
+    values:
+    - November
+    - June
+  
+  requested_slot:
+    type: unfeaturized
+  
+  # store candidate results
+  candidate_results:
+    type: unfeaturized
+
+templates:
+  utter_goodbye:
+    - text: "It was nice to be at your service"
+    - text: "If there is anything you need.. I'm here to help"
+    - text: "Have a good day"
+  utter_ask_candidateName:
+    - text: "Can i have your full name that you used on registration"
+    - text: "Please enter your full name below"
+    - text: "I need to have your name, can you provide your full name?"
+    - text: "Your name is needed to recognize you, please enter your full name"
+  utter_ask_center_number:
+    - text: "Please input your `center number`"
+    - text: "Can you provide me with your center number"
+    - text: "Provide your center number below"
+  utter_ask_year:
+    # - text: "Which year did you wrote your exams?"
+    # - text: "Can you provide me with the year you sat for your exams"
+    # - text: "Kindly mention the year you sat for the exams"
+    
+    # can use buttons here to cover current year and last year only
+    # handle the `other` intent option.
+    # Tip-> Ask user for their specific year besides the options given
+    # TODO: Handle `other` intend
+    - text: "Kindly select the year you sat for your exams below"
+      buttons:
+      - title: "2019"
+        payload: "2019"
+      - title: "2018"
+        payload: "2018"
+      - title: "Other"
+        payload: "other"
+  utter_ask_candidateLevel:
+    - text: "Which ZIMSEC level?"
+      buttons:
+      - title: "Ordinary Level"
+        payload: "ordinary level"
+      - title: "Advanced Level"
+        payload: "advanced level"
+  utter_proceed_login:
+    - text: "Registration successful. Do you want to proceed to login?"
+      buttons:
+      - title: "Yes"
+        payload: "yes"
+      - title: "No"
+        payload: "no"
+  utter_thank:
+    - text: "You are most welcome"
+    - text: "We are glad you use our services"
+    - text: "Okay"
+  utter_ask_password:
+    - text: "Enter your password below"
+    - text: "Provide the password that you got upon registration"
+    - text: "Can you provide your password before you proceed?"
+  utter_ask_username:
+    - text: "Enter your username below"
+    - text: "To continue, provide your username"
+    - text: "Enter username that was provided on registration"
+  utter_ask_candidateBirth:
+    - text: "Can you give me your date of birth as dd/mm/yyyy"
+    - text: "Please provide with your DOB with the format dd/mm/yyyy"
+  utter_ask_seat:
+    - text: "Which seating did you wrote your exams?"
+      buttons:
+      - title: "June"
+        payload: "June"
+      - title: "November"
+        payload: "November"
+  utter_ask_candidateNumber:
+    - text: "Can i have your candidate number below in the format e.g `#3002`"
+    - text: "Please provide with your candidate number like #3080"
+    - text: "Can you give me your candidate number in this format `#3004`"
+    - text: "I need to note down your candidate number. Kindly provide me with it in the format `#3068`"
+  utter_ask_service:
+    - text: "Hello student. To proceed, please select your next action"
+      buttons:
+      - title: "register/sign up"
+        payload: "register"
+      - title: "login"
+        payload: "login"
+  utter_ask_file_results:
+    - text: "Should i give you a downloadable file of your results also?"
+      buttons:
+      - title: "Yes"
+        payload: "yes"
+      - title: "No"
+        payload: "no"
+  utter_ask_gender:
+    - text: "Please specify your gender below"
+      buttons:
+      - title: "Male"
+        payload: "male"
+      - title: "Female"
+        payload: "female"
+
+actions:
+  - utter_goodbye
+  - utter_ask_candidateName
+  - utter_ask_center_number
+  - utter_ask_year
+  - utter_ask_candidateLevel
+  - utter_proceed_login
+  - utter_thank
+  - utter_ask_password
+  - utter_ask_username
+  - utter_ask_candidateBirth
+  - utter_ask_seat
+  - utter_ask_candidateNumber
+  - utter_ask_service
+  - utter_ask_file_results
+  - utter_ask_gender
+  - domain.actions.actions.ActionRegisterCandidate
+  - domain.actions.actions.ActionLoginCandidate
+  - domain.actions.actions.ActionHandleForgetDetails
+  - domain.actions.actions.ActionPromptForgetCandidateDetails
+  - domain.actions.actions.ActionGetResults
+  - domain.actions.actions.ActionSendFileResults

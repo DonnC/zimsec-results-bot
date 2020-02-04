@@ -1,0 +1,2573 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes that is it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes thats it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes ofcourse"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "yah"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "ofcourse yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes thats the one"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "fine"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok fine"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok thats fine"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes that one"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes go ahead"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah you can continue"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes please"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah proceed"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes proceed"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes that is it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes exactly that"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "nop"
+      },
+      {
+        "intent": "deny",
+        "text": "ofcourse no"
+      },
+      {
+        "intent": "deny",
+        "text": "not that one"
+      },
+      {
+        "intent": "deny",
+        "text": "i dont"
+      },
+      {
+        "intent": "deny",
+        "text": "that is not it"
+      },
+      {
+        "intent": "deny",
+        "text": "no i dont"
+      },
+      {
+        "intent": "inform_level",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "o level",
+            "entity": "candidateLevel"
+          }
+        ],
+        "text": "o level"
+      },
+      {
+        "intent": "inform_level",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "a level",
+            "entity": "candidateLevel"
+          }
+        ],
+        "text": "a level"
+      },
+      {
+        "intent": "inform_level",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "advanced level",
+            "entity": "candidateLevel"
+          }
+        ],
+        "text": "advanced level"
+      },
+      {
+        "intent": "inform_level",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "ordinary level",
+            "entity": "candidateLevel"
+          }
+        ],
+        "text": "ordinary level"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hie"
+      },
+      {
+        "intent": "greet",
+        "text": "wasup"
+      },
+      {
+        "intent": "greet",
+        "text": "sup"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "evening"
+      },
+      {
+        "intent": "greet",
+        "text": "afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hy"
+      },
+      {
+        "intent": "greet",
+        "text": "howya"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "wassup"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Donald Chuma",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Donald Chuma"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Sakala Moyo",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Sakala Moyo"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Jacob Kuluma",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Jacob Kuluma"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Tawanda Sibanda",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Tawanda Sibanda"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Rejoice Kumba",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Rejoice Kumba"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Agatha Musha",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Agatha Musha"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Josphat Murwi",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Josphat Murwi"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Dambudzo Kufa",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Dambudzo Kufa"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Tariro Chiga",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Tariro Chiga"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Zokora Lumba",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Zokora Lumba"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Tamia Mhizha",
+            "entity": "candidateName"
+          }
+        ],
+        "text": "Tamia Mhizha"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "November",
+            "entity": "seat"
+          }
+        ],
+        "text": "November"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "June",
+            "entity": "seat"
+          }
+        ],
+        "text": "June"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "June",
+            "entity": "seat"
+          }
+        ],
+        "text": "in June"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "November",
+            "entity": "seat"
+          }
+        ],
+        "text": "in November"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "June",
+            "entity": "seat"
+          }
+        ],
+        "text": "was in June"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "November",
+            "entity": "seat"
+          }
+        ],
+        "text": "it was in November"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "June",
+            "entity": "seat"
+          }
+        ],
+        "text": "it's June"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "November",
+            "entity": "seat"
+          }
+        ],
+        "text": "it's November"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "June",
+            "entity": "seat"
+          }
+        ],
+        "text": "was June"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "November",
+            "entity": "seat"
+          }
+        ],
+        "text": "was November"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Nov",
+            "entity": "seat"
+          }
+        ],
+        "text": "Nov"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Jun",
+            "entity": "seat"
+          }
+        ],
+        "text": "Jun"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "june",
+            "entity": "seat"
+          }
+        ],
+        "text": "june"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "november",
+            "entity": "seat"
+          }
+        ],
+        "text": "november"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "jun",
+            "entity": "seat"
+          }
+        ],
+        "text": "jun"
+      },
+      {
+        "intent": "inform_seat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "nov",
+            "entity": "seat"
+          }
+        ],
+        "text": "nov"
+      },
+      {
+        "intent": "inform_service",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "register",
+            "entity": "service"
+          }
+        ],
+        "text": "register"
+      },
+      {
+        "intent": "inform_service",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "login",
+            "entity": "service"
+          }
+        ],
+        "text": "login"
+      },
+      {
+        "intent": "inform_service",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "register",
+            "entity": "service"
+          }
+        ],
+        "text": "i want to register"
+      },
+      {
+        "intent": "inform_service",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "login",
+            "entity": "service"
+          }
+        ],
+        "text": "i want to login"
+      },
+      {
+        "intent": "inform_service",
+        "text": "log me in please"
+      },
+      {
+        "intent": "inform_service",
+        "text": "can you sign me up"
+      },
+      {
+        "intent": "inform_service",
+        "text": "sign me up"
+      },
+      {
+        "intent": "inform_service",
+        "text": "i want to sign up"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020384",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020384"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020284",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020284"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020031",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020031"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020388",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020388"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020920",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020920"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020092",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020092"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020102",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020102"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020382",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020382"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020289",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020289"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020970",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020970"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020091",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020091"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020221",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020221"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020342",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020342"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020982",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020982"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020739",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020739"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020192",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020192"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020927",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020927"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020917",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020917"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020982",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020982"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020117",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020117"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020372",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020372"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020562",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020562"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020111",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020111"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020172",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020172"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020190",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020190"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020192",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020192"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020382",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020382"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020780",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020780"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020901",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020901"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020982",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020982"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020922",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020922"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020122",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020122"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020092",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020092"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020822",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020822"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020872",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020872"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020092",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020092"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020872",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020872"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020080",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020080"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020355",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020355"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020331",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020331"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020299",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020299"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020009",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020009"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020268",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020268"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020381",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020381"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020281",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020281"
+      },
+      {
+        "intent": "inform_center_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "020281",
+            "entity": "center_number"
+          }
+        ],
+        "text": "020281"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "zimsecTanakaChuma20",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecTanakaChuma20"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "zimsecGregoryZaka12",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecGregoryZaka12"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "zimsecDonaldGuruve33",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecDonaldGuruve33"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "zimsecTawandaMoyo00",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecTawandaMoyo00"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "zimsecYolandaDhuve91",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecYolandaDhuve91"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "zimsecJacobNdlove87",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecJacobNdlove87"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "zimsecEricaGuni43",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecEricaGuni43"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "zimsecTerryLutelo23",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecTerryLutelo23"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "zimsecJorumeHuni12",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecJorumeHuni12"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "zimsecAgathaKuda09",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecAgathaKuda09"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "zimsecMelaineTutu11",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecMelaineTutu11"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "zimsecMelodyKufa44",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecMelodyKufa44"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "zimsecIanZvomweya90",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecIanZvomweya90"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "zimsecHaroldKufakwazvo10",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecHaroldKufakwazvo10"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "zimsecKeithGoredema18",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecKeithGoredema18"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "zimsecSarahEndai89",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecSarahEndai89"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "zimsecVimbaiKupakwzvo32",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecVimbaiKupakwzvo32"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "zimsecMichelleDambudzo15",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecMichelleDambudzo15"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "zimsecLenardKujo17",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecLenardKujo17"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "zimsecQuintonTatireyi23",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecQuintonTatireyi23"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "zimsecPortiaSvuure76",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecPortiaSvuure76"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "zimsecZackJekwende86",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecZackJekwende86"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "zimsecWillardHombarume27",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecWillardHombarume27"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "zimsecBatsiraiMujita24",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecBatsiraiMujita24"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "zimsecEthelPhiri94",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecEthelPhiri94"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "zimsecEmiliaChimuti92",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecEmiliaChimuti92"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "zimsecMunasheKuenda40",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecMunasheKuenda40"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "zimsecTinasheDabudabi83",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecTinasheDabudabi83"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "zimsecDejaVutile19",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecDejaVutile19"
+      },
+      {
+        "intent": "inform_username",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "zimsecFaraiMavhitu39",
+            "entity": "username"
+          }
+        ],
+        "text": "zimsecFaraiMavhitu39"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "$Walle364Kocle!",
+            "entity": "password"
+          }
+        ],
+        "text": "$Walle364Kocle!"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "$Robinson902Chuma@",
+            "entity": "password"
+          }
+        ],
+        "text": "$Robinson902Chuma@"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "$Tariro000Fuchia^",
+            "entity": "password"
+          }
+        ],
+        "text": "$Tariro000Fuchia^"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "$Donald492Guruve*",
+            "entity": "password"
+          }
+        ],
+        "text": "$Donald492Guruve*"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "$Tanaka271Chiwenga)",
+            "entity": "password"
+          }
+        ],
+        "text": "$Tanaka271Chiwenga)"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "$Tawanda082Dambudzo_",
+            "entity": "password"
+          }
+        ],
+        "text": "$Tawanda082Dambudzo_"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "$Tonderai052Jutere%",
+            "entity": "password"
+          }
+        ],
+        "text": "$Tonderai052Jutere%"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "$Dickson002Wafa&",
+            "entity": "password"
+          }
+        ],
+        "text": "$Dickson002Wafa&"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "$Zachariah320Vhuvhu@",
+            "entity": "password"
+          }
+        ],
+        "text": "$Zachariah320Vhuvhu@"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "$Mary634Dhuterere(",
+            "entity": "password"
+          }
+        ],
+        "text": "$Mary634Dhuterere("
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "$Vimbai210Chukuku#",
+            "entity": "password"
+          }
+        ],
+        "text": "$Vimbai210Chukuku#"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "$Vongai890Zvapano^",
+            "entity": "password"
+          }
+        ],
+        "text": "$Vongai890Zvapano^"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "$Gerald311Mutovo*",
+            "entity": "password"
+          }
+        ],
+        "text": "$Gerald311Mutovo*"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "$Norman573Chipandu#",
+            "entity": "password"
+          }
+        ],
+        "text": "$Norman573Chipandu#"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "$Ronald820Rutero+",
+            "entity": "password"
+          }
+        ],
+        "text": "$Ronald820Rutero+"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "$Quinton783Guti%",
+            "entity": "password"
+          }
+        ],
+        "text": "$Quinton783Guti%"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "$Martha452Murwira!",
+            "entity": "password"
+          }
+        ],
+        "text": "$Martha452Murwira!"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "$Kudakwashe209Kuipa~",
+            "entity": "password"
+          }
+        ],
+        "text": "$Kudakwashe209Kuipa~"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "$Prudence992Dube^",
+            "entity": "password"
+          }
+        ],
+        "text": "$Prudence992Dube^"
+      },
+      {
+        "intent": "inform_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "$Devotion988Ndlovu@",
+            "entity": "password"
+          }
+        ],
+        "text": "$Devotion988Ndlovu@"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "chat later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "it was nice talking to you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye now"
+      },
+      {
+        "intent": "candidate_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "#3004",
+            "entity": "candidateNumber"
+          }
+        ],
+        "text": "#3004"
+      },
+      {
+        "intent": "candidate_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "#3839",
+            "entity": "candidateNumber"
+          }
+        ],
+        "text": "#3839"
+      },
+      {
+        "intent": "candidate_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "#3031",
+            "entity": "candidateNumber"
+          }
+        ],
+        "text": "#3031"
+      },
+      {
+        "intent": "candidate_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "#9281",
+            "entity": "candidateNumber"
+          }
+        ],
+        "text": "#9281"
+      },
+      {
+        "intent": "candidate_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "#8890",
+            "entity": "candidateNumber"
+          }
+        ],
+        "text": "its #8890"
+      },
+      {
+        "intent": "inform",
+        "text": "other"
+      },
+      {
+        "intent": "inform",
+        "text": "okay"
+      },
+      {
+        "intent": "inform",
+        "text": "its okay"
+      },
+      {
+        "intent": "inform",
+        "text": "ok fine"
+      },
+      {
+        "intent": "inform",
+        "text": "ok"
+      },
+      {
+        "intent": "inform",
+        "text": "k"
+      },
+      {
+        "intent": "inform",
+        "text": "ky"
+      },
+      {
+        "intent": "inform",
+        "text": "owkay"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "25-09-2002",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "25-09-2002"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "12/02/1997",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "12/02/1997"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "2 June 2000",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "2 June 2000"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "25 December 1999",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "25 December 1999"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "13 Aug 1997",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "13 Aug 1997"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Jan 2 2001",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "Jan 2 2001"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "11/02/2002",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "11/02/2002"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "09/01/2001",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "09/01/2001"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "09/12/1999",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "09/12/1999"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "28/11/1995",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "28/11/1995"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "22/03/2002",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "22/03/2002"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "13/23/2007",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "13/23/2007"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "2/01/2000",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "2/01/2000"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "7/10/2002",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "7/10/2002"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "3/12/2019",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "3/12/2019"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "9/1/2000",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "9/1/2000"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "04/07/2001",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "04/07/2001"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "17/05/2004",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "17/05/2004"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "29/07/1998",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "29/07/1998"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "31/06/2004",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "31/06/2004"
+      },
+      {
+        "intent": "candidate_dob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "25/12/2001",
+            "entity": "candidateBirth"
+          }
+        ],
+        "text": "25/12/2001"
+      },
+      {
+        "intent": "candidate_gender",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "male",
+            "entity": "gender"
+          }
+        ],
+        "text": "male"
+      },
+      {
+        "intent": "candidate_gender",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "female",
+            "entity": "gender"
+          }
+        ],
+        "text": "female"
+      },
+      {
+        "intent": "candidate_gender",
+        "text": "its male"
+      },
+      {
+        "intent": "candidate_gender",
+        "text": "im female"
+      },
+      {
+        "intent": "candidate_gender",
+        "text": "use female"
+      },
+      {
+        "intent": "candidate_gender",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Female",
+            "entity": "gender"
+          }
+        ],
+        "text": "Female"
+      },
+      {
+        "intent": "candidate_gender",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Male",
+            "entity": "gender"
+          }
+        ],
+        "text": "Male"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2019",
+            "entity": "year"
+          }
+        ],
+        "text": "2019"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2018",
+            "entity": "year"
+          }
+        ],
+        "text": "2018"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2017",
+            "entity": "year"
+          }
+        ],
+        "text": "2017"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1997",
+            "entity": "year"
+          }
+        ],
+        "text": "1997"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2001",
+            "entity": "year"
+          }
+        ],
+        "text": "2001"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2020",
+            "entity": "year"
+          }
+        ],
+        "text": "2020"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2007",
+            "entity": "year"
+          }
+        ],
+        "text": "2007"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2010",
+            "entity": "year"
+          }
+        ],
+        "text": "2010"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1999",
+            "entity": "year"
+          }
+        ],
+        "text": "1999"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2002",
+            "entity": "year"
+          }
+        ],
+        "text": "2002"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2003",
+            "entity": "year"
+          }
+        ],
+        "text": "2003"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2010",
+            "entity": "year"
+          }
+        ],
+        "text": "2010"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2021",
+            "entity": "year"
+          }
+        ],
+        "text": "2021"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2014",
+            "entity": "year"
+          }
+        ],
+        "text": "2014"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2013",
+            "entity": "year"
+          }
+        ],
+        "text": "2013"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2000",
+            "entity": "year"
+          }
+        ],
+        "text": "2000"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2009",
+            "entity": "year"
+          }
+        ],
+        "text": "2009"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2005",
+            "entity": "year"
+          }
+        ],
+        "text": "2005"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2017",
+            "entity": "year"
+          }
+        ],
+        "text": "2017"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2018",
+            "entity": "year"
+          }
+        ],
+        "text": "2018"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "2019",
+            "entity": "year"
+          }
+        ],
+        "text": "in 2019"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "2018",
+            "entity": "year"
+          }
+        ],
+        "text": "was in 2018"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "2020",
+            "entity": "year"
+          }
+        ],
+        "text": "was 2020"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "2019",
+            "entity": "year"
+          }
+        ],
+        "text": "it's 2019"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "2018",
+            "entity": "year"
+          }
+        ],
+        "text": "i think in 2018"
+      },
+      {
+        "intent": "inform_year",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "2019",
+            "entity": "year"
+          }
+        ],
+        "text": "should be in 2019"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanx"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you for your service"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for helping"
+      },
+      {
+        "intent": "thank",
+        "text": "dankie"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you very much"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a lot"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "center_number",
+        "pattern": "[0-9]{1,6}"
+      },
+      {
+        "name": "year",
+        "pattern": "[0-9]{1,4}"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

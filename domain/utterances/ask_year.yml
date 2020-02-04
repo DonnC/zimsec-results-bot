@@ -1,0 +1,16 @@
+# - text: "Which year did you wrote your exams?"
+# - text: "Can you provide me with the year you sat for your exams"
+# - text: "Kindly mention the year you sat for the exams"
+
+# can use buttons here to cover current year and last year only
+# handle the `other` intent option.
+# Tip-> Ask user for their specific year besides the options given
+# TODO: Handle `other` intend
+- text: "Kindly select the year you sat for your exams below"
+  buttons:
+  - title: "2019"
+    payload: "2019"
+  - title: "2018"
+    payload: "2018"
+  - title: "Other"
+    payload: "other"

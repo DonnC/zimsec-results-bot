@@ -1,0 +1,6 @@
+- text: "Registration successful. Do you want to proceed to login?"
+  buttons:
+  - title: "Yes"
+    payload: "yes"
+  - title: "No"
+    payload: "no"

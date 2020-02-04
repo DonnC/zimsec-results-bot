@@ -1,0 +1,16 @@
+- hello
+- hie
+- wasup
+- sup
+- greetings
+- good morning
+- evening
+- afternoon
+- hey
+- hi
+- hy
+- howya
+- good afternoon
+- good evening
+- hallo
+- wassup

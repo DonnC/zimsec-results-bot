@@ -1,0 +1,8 @@
+- [register](service)
+- [login](service)
+- i want to [register](service)
+- i want to [login](service)
+- log me in please
+- can you sign me up
+- sign me up
+- i want to sign up

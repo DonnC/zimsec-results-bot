@@ -1,0 +1,6 @@
+- text: "Which seating did you wrote your exams?"
+  buttons:
+  - title: "June"
+    payload: "June"
+  - title: "November"
+    payload: "November"

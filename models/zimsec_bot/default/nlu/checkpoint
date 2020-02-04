@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/donald/Projects/Python36/rasa bots/zimsec_results_bot/./models/zimsec_bot/default/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/donald/Projects/Python36/rasa bots/zimsec_results_bot/./models/zimsec_bot/default/nlu/intent_classifier_tensorflow_embedding.ckpt"

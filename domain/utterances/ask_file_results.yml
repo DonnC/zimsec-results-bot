@@ -1,0 +1,6 @@
+- text: "Should i give you a downloadable file of your results also?"
+  buttons:
+  - title: "Yes"
+    payload: "yes"
+  - title: "No"
+    payload: "no"

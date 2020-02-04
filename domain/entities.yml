@@ -1,0 +1,13 @@
+- candidateNumber
+- candidateLevel
+- candidateBirth
+- candidateName
+- gender
+- seat
+- center_number
+- service
+- year
+
+# for username && password
+- username
+- password

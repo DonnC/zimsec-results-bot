@@ -1,0 +1,8 @@
+- other
+- okay
+- its okay
+- ok fine
+- ok
+- k
+- ky
+- owkay

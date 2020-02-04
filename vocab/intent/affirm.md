@@ -1,0 +1,23 @@
+- yes
+- yes that is it
+- yes thats it
+- yes ofcourse
+- yeah
+- yah
+- yep
+- ofcourse yes
+- yes indeed
+- yes thats the one
+- ok
+- fine
+- ok fine
+- ok thats fine
+- yes that one
+- yep
+- yes go ahead
+- yeah you can continue
+- yes please
+- yeah proceed
+- yes proceed
+- yes that is it
+- yes exactly that

@@ -1,0 +1,51 @@
+candidateNumber:
+  type: text
+
+candidateBirth:
+  type: text
+
+candidateName:
+  type: text
+
+service:
+  type: text
+
+center_number:
+  type: text
+
+candidateLevel:
+  type: categorical
+  values:
+  - advanced level
+  - ordinary level
+
+gender:
+  type: categorical
+  values:
+  - male
+  - female
+
+username:
+  type: text
+
+password:
+  type: text
+
+year:
+  type: text
+
+loggedIn:
+  type: text
+
+seat:
+  type: categorical
+  values:
+  - November
+  - June
+
+requested_slot:
+  type: unfeaturized
+
+# store candidate results
+candidate_results:
+  type: unfeaturized
