@@ -24,8 +24,13 @@
 - use ngrok for local testing
 
 ### Demos
-- local server respond
-![respond](images/local_server.png)
+- register >>> CMD channel
+![register](images/register.gif)
+- login >>> CMD channel
+![login](images/login.gif)
+
+- On FB Messenger
+![fb](images/facebook.gif)
 
 ### Technologies used
 ```buildoutcfg
