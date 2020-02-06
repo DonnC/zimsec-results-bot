@@ -24,12 +24,13 @@
 - use ngrok for local testing
 
 ### Demos
-- register >>> CMD channel
-![register](images/register.gif)
-- login >>> CMD channel
+register >>> CMD channel
+![reg](images/register.gif)
+
+login >>> CMD channel
 ![login](images/login.gif)
 
-- On FB Messenger
+On FB Messenger
 ![fb](images/facebook.gif)
 
 ### Technologies used
