@@ -24,11 +24,7 @@
 - use ngrok for local testing
 
 ### Demos
-register >>> CMD channel
-![reg](images/register.gif)
-
-login >>> CMD channel
-![login](images/login.gif)
+- videos [here](images/)
 
 On FB Messenger
 ![fb](images/facebook.gif)
