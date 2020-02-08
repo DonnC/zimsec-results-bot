@@ -1,7 +1,17 @@
 ## Zimsec results facebook Bot
+- Register and log into zimsec portal to view zimsec exam results
 - This bot is not affiliated with Zimsec or the Ministry of Education whatsoever
 - Its simply a proof of concept of what i had in mind after seeing many complaints about the zimsec results website issues
 - A showcase of what can be used in the future or using AI to ease access to students results
+
+### Demos
+- register on fb
+![register](images/reg.gif)
+
+- login on fb
+![login](images/login.gif)
+
+- more videos [here](images/)
 
 ### What it does
 - Sign up / Register for first time students
@@ -22,9 +32,6 @@
 - Refer to [rasa website](https://legacy-docs.rasa.com/docs/core/0.9.8/connectors/#facebook-messenger-setup) , needs a facebook developers account
 - [facebook developer acc](https://developers.facebook.com/)
 - use ngrok for local testing
-
-### Demos
-- videos [here](images/)
 
 On FB Messenger
 ![fb](images/facebook.gif)
